@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+#background{
+	width:1024px;
+	height:768px;
+}
+#background img{
+	z-index:-1;}
+#menu{
+	background-repeat: no-repeat;
+	position:relative;
+	top:-300px;
+	z-index:0;}
+.menu_v1 {
+	height:158px;
+	border:0px;
+	margin:0 auto;
+	}
+.menu_v1 td{
+	width:112px;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 158px;
+}
+
+.SelectTask{ background-color:#EBF5FF;}

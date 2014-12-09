@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>iDevice</title>
+    <script type="text/javascript">
+        var WS_Url = 'http://eosws.cidgroup.com/default.aspx';
+        var Login_Url = 'http://eosws.cidgroup.com/Login.aspx';
+        var Icon_Url = 'http://eosws.cidgroup.com/images/Users/';
+        var TaskAssign_Url = "http://eosws.cidgroup.com/TaskAssignWS.aspx";
+        var F_BasicInfo_ID = "";
+        var F_AO = "";
+        var Name = "";
+        var Group = "";
+        var startNum = 0;
+        var limitNum = 25;
+        var Title = "";
+        var TitleUrl = "";
+        var Tid_Edit = "";
+        var isMyTaskStoreLosd = false;
+        var isMyAssignStoreLosd = false;
+        var TaskID = "";
+    </script>
+    <!-- <link rel="stylesheet" href="resources/css/geocongress.css" type="text/css" />
+    <link href="resources/css-debug/sencha-touch.css" rel="stylesheet" type="text/css" />
+    <script src="sencha-touch-debug.js" type="text/javascript"></script>
+    <script src="sencha-touch-all-debug.js" type="text/javascript"></script>-->
+    <link href="resources/css-debug/sencha-touch.css" rel="stylesheet" type="text/css" />
+    <link href="resources/css/DealLog.css" rel="stylesheet" type="text/css" />
+	<link href="resources/css/TaskAssign-1121.css" rel="stylesheet" type="text/css" />
+    <script src="sencha-touch.js" type="text/javascript"></script>
+    <script src="sencha-touch-all-debug.js" type="text/javascript"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript">
+        function winOpen() {
+            if (TitleUrl != null && TitleUrl != "") {
+                window.open(TitleUrl, F_BasicInfo_ID);
+            }
+            else {
+                Ext.Msg.alert('Website Info', 'Website Url is null!');
+            }
+        }       
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,120 @@
+﻿/* line 176, ../themes/stylesheets/sencha-touch/default/widgets/_tabs.scss */
+.x-tabbar.x-docked-bottom .x-tab .x-button-label, .x-tabbar.x-docked-bottom .x-tab .x-hasbadge .x-badge, .x-hasbadge .x-tabbar.x-docked-bottom .x-tab .x-badge
+{
+    font-size: 12px;
+}
+.x-select-overlay
+{
+    min-width: 21em;
+}
+.x-form-fieldset-instructions
+{
+    text-align: right;
+}
+.categories-list
+{
+    text-align: center;
+    background-image: url('http://eosws.cidgroup.com/images/TaskAssign-img/eos-iPad-TaskAssign-01-20121121.png');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.categories-list .categories-list-container
+{
+    max-width: 1024px;
+    margin: 450px auto;
+    background-color:transparent;
+}
+/*
+.categories-list .categories-list-item
+{
+    background: rgba(38, 38, 38, 0.5);
+    border: 1px solid rgba(67, 67, 67, 0.5);
+    height: 180px;
+    -webkit-transition: background .2s ease-in, border-color .2s ease-in;
+}
+*/
+body.x-phone .categories-list .categories-list-item
+{
+    margin: 0 20px;
+    margin-top: 20px;
+    padding: 30px;
+    background-color:transparent;
+}
+body.x-phone .categories-list .categories-list-item:first-child
+{
+    margin-top: 0;
+}
+body:not(.x-phone) .categories-list .categories-list-item
+{
+    display: inline-block;
+   /* padding: 30px 50px;*/
+}
+.categories-list .categories-list-item .image
+{
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 158px;
+    width: 112px;
+    /*max-width: 212px;*/
+}
+body.x-phone .categories-list .categories-list-item .image
+{
+    margin: 0 auto;
+}
+body:not(.x-phone) .categories-list .categories-list-item .image
+{
+   /* width: 212px;*/
+}
+.categories-list .categories-list-item .name
+{
+    padding-top: 20px;
+    font-size: 20px;
+    text-shadow: 0 1px 0 #000;
+    color: #fff;
+    font-family: 'Quattrocento Sans' , sans-serif;
+}
+.x-landscape .categories-list .categories-list-item
+{
+    margin: 10px;
+}
+.x-portrait .categories-list .categories-list-item
+{
+    margin: 20px;
+}
+.categories-list .x-item-pressed
+{
+    background: rgba(0, 53, 41, 0.7);
+    border-color: rgba(0, 53, 41, 0.8);
+}
+.categories-list .categories-list-inner
+{
+    line-height: 10px;
+}
+.x-landscape .categories-list .categories-list-inner
+{
+    padding-top: 10px;
+}
+.x-portrait .categories-list .categories-list-inner
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.categories-list.root
+{
+    background-image: url(../images/bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+body:not(.x-phone).x-landscape .categories-list.root .categories-list-item:first-child
+{
+    margin-right: 345px;
+}
+.x-phone .categories-list.root .categories-list-inner
+{
+    padding-top: 100px;
+}
+body:not(.x-phone).x-portrait .categories-list.root .categories-list-inner
+{
+    padding-top: 280px;
+}

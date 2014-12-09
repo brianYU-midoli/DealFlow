@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
+id="com.midolitech.test" version="1.0.7.6">
+    <name>
+        CID Group
+    </name>
+    <description>
+        CID Group ST2RC 2013-0218 version 1.0.7.8
+    </description>
+    <author href="http://www.midolitech.net" email="Gary@midolitech.net">
+        Gary
+    </author>
+	<preference name="orientation" value="landscape" />	
+	<icon src="img/icon-57.png" width="57" height="57"/>
+	<icon src="img/icon.png" width="72" height="72"/>
+	<icon src="img/icon-114.png" width="114" height="114"/>
+    <gap:splash src="img/CID-1-04.png"/>
+	<gap:splash src="img/CID-1-04.png" width="640" height="960"/>
+	<gap:splash src="img/CID-1-04.png" width="768" height="1004"/>
+	<gap:splash src="img/CID-1-04.png" width="1024" height="748"/>
+</widget>
